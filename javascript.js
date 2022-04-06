@@ -1,4 +1,6 @@
-function makeGrid (row, col) {
+function makeGrid (row = prompt('Choose width. (Max 50)'), 
+                   col = prompt('Choose height. (Max 50)')) {
+
     if (row > 50 || col > 50) {
         return alert('Your choice was too high, idiot.');
     }
@@ -18,8 +20,7 @@ function makeGrid (row, col) {
 }
 
 function reset() {
-    location.reload();
-}
 
-makeGrid(prompt('Choose width. (Max 50)'), prompt('Choose height. (Max 50)'));
+    }
+
 
