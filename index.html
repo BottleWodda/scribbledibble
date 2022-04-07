@@ -8,13 +8,20 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body class = 'bod'>
 
-    <div id = 'container'>
+    <div class = 'content'>
+        <div class = 'heading'><h1>Scribble Dibble</h1></div>
+        <div class = 'gridContainer'></div>
+
     </div>
 
-    <button class = 'button' onclick="makeGrid()"> Create New Canvas </button>
-    <button class = 'button' onclick="reset()"> Reset (doesn't do anything yet)</button>
+    <div class = 'buttons'>
+        <button class = 'btn' id = 'newCanvas'>New Canvas</button>
+        <button class = 'btn' id = 'rainbow'>Rainbow</button>
+        <button class = 'btn' id = 'oneInTen'>10% Black</button>        
+    </div>
+
 </body>
     <script src="javascript.js"></script>
 </html>
