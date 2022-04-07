@@ -1,9 +1,6 @@
-function makeGrid (row = prompt('Choose width. (Max 50)'), 
-                   col = prompt('Choose height. (Max 50)')) {
+function createGrid(row, col) {
+    //row = col = prompt('Enter grid size from 2-100.')
 
-    if (row > 50 || col > 50) {
-        return alert('Your choice was too high, idiot.');
-    }
     for (let i = 0; i <row; i++) {    //creates a div for number in 'row' parameter
         let row = document.createElement('div');
         row.className = 'row';
@@ -15,12 +12,20 @@ function makeGrid (row = prompt('Choose width. (Max 50)'),
                 column.style.backgroundColor = 'black';
             });
         }
-        document.getElementById('container').appendChild(row);
+        document.getElementById('gridContainer').appendChild(row);
     }
 }
 
-function reset() {
+function newCanvas() {
 
-    }
+}
 
+function rainbow() {
 
+}
+
+function oneInTenBlack() {
+
+}
+
+createGrid(40, 40);
