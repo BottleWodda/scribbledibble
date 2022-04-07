@@ -16,16 +16,20 @@
     margin: 40px;
     margin-top: 110px;
     display: inline-flex;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.61);
     background-color: rgb(190, 190, 189);
+    border: 2px solid rgba(0, 0, 0, 0.61);
+    box-shadow: 3px 3px #d4abab;
     border-radius: 100px; 
     padding: 20px;   
+    color: rgb(50, 87, 92);
 }
 
 .gridContainer {
     background-color: paleturquoise;
     width: 600px;
     height: 600px;
-    border: 2px solid olive;
+    border: 2px solid rgba(0, 0, 0, 0.61);
     border-radius: 5px;
     box-shadow: 5px 7px #d4abab;
     margin: 20px;
@@ -36,6 +40,8 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(190, 190, 189);
+    border: 2px solid rgba(0, 0, 0, 0.61);
+    box-shadow: 3px 3px #d4abab;
     border-radius: 100px;
     margin-top: 40px;
 }
