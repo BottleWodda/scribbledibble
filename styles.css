@@ -26,7 +26,7 @@
 }
 
 #gridContainer {
-    background-color: paleturquoise;
+    background-color: #afeeee;
     width: 600px;
     height: 600px;
     border: 2px solid rgba(0, 0, 0, 0.61);
@@ -49,7 +49,7 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(190, 190, 189);
+    background-color: #bebebd;
     border: 2px solid rgba(0, 0, 0, 0.61);
     box-shadow: 3px 3px #d4abab;
     border-radius: 100px;
