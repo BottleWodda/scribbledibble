@@ -38,10 +38,10 @@
 }
 
 .column {
-        background: #bdbcbc;
-        display: flex;
-        flex: 1;
-        cursor: pointer;
+    background: #bdbcbc;
+    display: flex;
+    flex: 1;
+    cursor: pointer;
 }
 
 .row {
