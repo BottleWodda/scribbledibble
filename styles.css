@@ -26,6 +26,8 @@
 }
 
 #gridContainer {
+    display: flex;
+    flex-direction: column;
     background-color: #afeeee;
     width: 600px;
     height: 600px;
@@ -37,12 +39,15 @@
 
 .column {
         background: #bdbcbc;
-        width: 15px;
-        height: 15px;
-        margin: 0 auto;
-        margin-top: 0;
-        cursor: pointer ;
-        float: left;
+        display: flex;
+        flex: 1;
+        cursor: pointer;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+
 }
 
 .buttons {

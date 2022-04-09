@@ -2,7 +2,7 @@
 function createGrid(row, col) {
     row = col = prompt('Enter grid size from 2-100.')
 
-    for (let i = 0; i <row; i++) {
+        for (let i = 0; i <row; i++) {
         let row = document.createElement('div');
         row.className = 'row';
         row.id = 'row';
@@ -28,9 +28,9 @@ function newCanvas() {
     }
 }
 
-function oneInTenBlack() {
+function resizeGrid() {
+    
 }
-
 
 //creates random selection of rgb colours
 function colors() {
