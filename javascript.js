@@ -75,7 +75,7 @@ function colors() {
     return `#${color}`;
   }
 
-    //User inputs canvas size and draws in random RGB
+        //User inputs canvas size and draws in random RGB
   function rainbow(row, col) {
     alert('Rainbow Mode Activated');
     row = col = prompt('Enter grid size from 2-100.')
